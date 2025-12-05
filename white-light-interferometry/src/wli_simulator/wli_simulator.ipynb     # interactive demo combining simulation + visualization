@@ -1,5 +1,0 @@
-WhiteLightInterferometry/
-│
-├── heightmap_generator.py  # Code for generating heightmap
-├── wli_simulator.py         # Code for simulating the interferogram
-└── README.md                # Project documentation

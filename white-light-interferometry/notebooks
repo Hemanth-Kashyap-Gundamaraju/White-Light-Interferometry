@@ -1,4 +1,0 @@
-WhiteLightInterferometry/
-│
-├── wli_simulator.py
-└── heightmap.csv (optional, if you want to use a pre-generated heightmap)
