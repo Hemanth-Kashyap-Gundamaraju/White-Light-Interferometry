@@ -42,7 +42,7 @@ https://www.youtube.com/watch?v=yMeRAg61_Wc
 - White light consists of a broad spectrum of wavelengths, therefore it's coherence length is low. Due to this, the interference patterns are only generated when the path difference is extremely small (with the coherence length). To solve for this, we attach our sample on high precision optical rails which allow for adjusting the sample over the optical axis to scan across the surface of the sample. The intensity at each pixel gives us the necessary information to reverse engineer the height of the sample at that point.
 - At each pixel, the position of maximum fringe contrast (the “coherence peak”) is recorded. This peak indicates the point where the two beams have equal optical path length. The vertical position of this coherence peak corresponds to the height of the sample surface at that point.
 
-# Calculation of Intensity
+### Calculation of Intensity
 - We computed the optical path difference OPD = 2·(z − s) for each mirror position.
 - We applied a Gaussian coherence envelope γ(OPD) = exp(−OPD²/(2·Lc²)), and formed the interference phase φ(λ) = 2π·OPD/λ.
 - The spectrally-integrated intensity is then I(y,x,s) = Σλ S(λ)·[1 + V0·cos(φ(λ))] (with S(λ) a Gaussian or measured source spectrum), which produces short fringe packets centred where s ≈ z.
